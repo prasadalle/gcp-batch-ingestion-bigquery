@@ -1,4 +1,6 @@
 terraform {
+  rm versions.tf
+  sed -i 's/0.11.14/0.12.0/g' main.tf
   backend "gcs" {
     bucket = "fs-tf-state-gcp-batch-ingestion"
     region = "us-west2"

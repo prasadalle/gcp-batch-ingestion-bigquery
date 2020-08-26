@@ -1,5 +1,4 @@
 terraform {
-  required_version = "= 0.11.14"
   backend "gcs" {
     bucket = "fs-tf-state-gcp-batch-ingestion"
     region = "us-west2"

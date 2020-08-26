@@ -11,7 +11,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "funky-bucket" {
-  name = "batch-pipeline"
+  name = "f5-batch-pipeline-283920"
   storage_class = "REGIONAL"
   location  = "us-west2"
 }

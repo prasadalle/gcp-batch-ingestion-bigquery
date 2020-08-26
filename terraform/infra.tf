@@ -5,7 +5,6 @@ terraform {
     prefix = "terraform/state"
   }
 }
-
 provider "google" {
   project = "certs-283920"
   region = "us-west2"

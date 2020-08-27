@@ -7,7 +7,6 @@ terraform {
 }
 provider "google" {
   project = "certs-283920"
-  region = "us-west2"
 }
 
 resource "google_storage_bucket" "funky-bucket" {
